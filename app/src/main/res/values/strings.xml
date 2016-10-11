@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Koperasi Mahasiswa</string>
+    <string name="app_name_upper">KOPERASI MAHASISWA</string>
+    <string name="nav_cart">KERANJANG</string>
+    <string name="nav_pro">PRODUK</string>
+    <string name="nav_cat">KATEGORI</string>
+    <string name="nav_fav">FAVORIT</string>
+    <string name="nav_acc">AKUN</string>
+    <string name="nav_log">LOGOUT</string>
+</resources>

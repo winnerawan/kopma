@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+
+    >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                />
+                <include layout="@layout/toolbar_transparent"/>
+            </FrameLayout>
+
+            <!--//Description-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:padding="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:letterSpacing="0.04"
+                    android:lineSpacingExtra="0.5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/ijotuo"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="horizontal"
+                android:padding="20dp"
+
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <!--//price //-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Harga"
+                        android:gravity="center"
+                        android:textSize="15dp"
+                        android:letterSpacing="0.04"
+                        android:textColor="@color/colortitletext"/>
+
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/harga"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 100"
+                        android:letterSpacing="0.04"
+                        android:gravity="center"
+                        android:textColor="@color/colorheadtext"/>
+                </LinearLayout>
+
+                <!--//outlet//-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Outlet"
+                        android:gravity="center"
+                        android:textSize="15dp"
+                        android:letterSpacing="0.04"
+                        android:textColor="@color/colortitletext"/>
+
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Koperasi"
+                        android:letterSpacing="0.04"
+                        android:gravity="center"
+                        android:textColor="@color/colorheadtext"/>
+                </LinearLayout>
+
+                <!--// estimated //-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stok"
+                        android:gravity="center"
+                        android:textSize="15dp"
+                        android:letterSpacing="0.04"
+                        android:textColor="@color/colortitletext"/>
+
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/stok"
+                        android:letterSpacing="0.04"
+                        android:gravity="center"
+                        android:textColor="@color/colorheadtext"/>
+                </LinearLayout>
+
+                <!--//  rating //-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rating"
+                        android:gravity="center"
+                        android:letterSpacing="0.04"
+                        android:textSize="15dp"
+                        android:textColor="@color/colortitletext"/>
+
+                    <RatingBar
+                        android:id="@+id/ratings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="4"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:backgroundTint="@color/ratingbar"
+                        android:secondaryProgressTint="@color/ratingbar"
+                        android:progressTint="@color/ratingbar"
+
+
+                        />
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <!--//ingredint//-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorwhite"
+
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+
+                <!-- -->
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reviews"
+                    android:textColor="@color/colortitletext"
+                    android:textSize="18dp"
+                    android:letterSpacing="0.05"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/colorheadtext"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorbackground"
+                    android:layout_marginTop="5dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="52dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/re_list_rev"
+                    android:background="@color/colorwhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
+                </ScrollView>
+            </LinearLayout>
+
+            <!--// Nutritional//-->
+
+
+            <!--//Delivery//-->
+
+
+
+        </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/addtocart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="14dp"
+        android:background="@color/colorbar"
+        android:text="ADD TO CART"
+        android:textColor="@color/colorgreen"
+        android:gravity="center"
+        android:textSize="13dp"
+        android:letterSpacing="0.02"
+        android:textStyle="bold"/>
+</RelativeLayout>
+

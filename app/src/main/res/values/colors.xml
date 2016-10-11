@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29b6f6</color>
+    <color name="colorPrimaryDark">#191f28</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorhint">#a9aaac</color>
+    <color name="colortext">#191f28</color>
+    <color name="colortitletext">#191f28</color>
+    <color name="colorheadtext">#696d6f</color>
+    <color name="colorgreen">#06bebd</color>
+    <color name="colortabback">#191f28</color>
+    <color name="colorwhitebackground">#fff</color>
+    <color name="colorblue">#2196f3</color>
+    <color name="colorbackground">#f2f3f4</color>
+    <color name="colorbar">#2c3239</color>
+    <color name="transparent">#00000000</color>
+    <color name="colordevider">#cfc391</color>
+    <color name="signintext">#cfc391</color>
+    <color name="ijotuo">#191f28</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="ratingbar">#ff9800</color>
+    <color name="btcolorbg">#C5C7CC</color>
+    <color name="background_line">#444a59</color>
+    <color name="colorijomaterial">#009688</color>
+</resources>

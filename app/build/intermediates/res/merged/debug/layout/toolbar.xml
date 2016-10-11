@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuToolbar"
+    style="@style/ToolBarStyle.Event"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="@color/ijotuo"
+    android:minHeight="?attr/actionBarSize"
+    android:padding="0dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:contentInsetLeft="10dp"
+    app:contentInsetRight="10dp"
+    app:contentInsetStart="10dp">
+
+
+
+
+    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_upper"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"
+        />
+</android.support.v7.widget.Toolbar>

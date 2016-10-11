@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dharma" >
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+
+                    android:id="@+id/back"
+                    android:layout_width="21dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/back"
+                    android:layout_margin="16dp"
+                    />
+
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign up"
+                    android:textSize="22dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="16dp"
+                    android:layout_margin="16dp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/signup"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyEditText
+                    android:textSize="16dp"
+                    android:id="@+id/firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Depan"
+                    android:textColorHint="@color/signintext"
+                    android:textColor="@color/signintext"
+                    android:layout_marginLeft="60dp"
+                    android:inputType="text"
+                    android:background="#0000"
+                    android:maxLength="20"
+
+                    android:padding="16dp"
+                    android:drawableLeft="@drawable/user"
+                    android:drawablePadding="35dp"
+                    android:layout_marginRight="65dp"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_height="1dp"
+                    android:background="@color/signintext" />
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyEditText
+                    android:textSize="16dp"
+                    android:id="@+id/lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Belakang"
+                    android:textColorHint="@color/signintext"
+                    android:textColor="@color/signintext"
+                    android:layout_marginLeft="95dp"
+                    android:inputType="text"
+                    android:background="#0000"
+                    android:maxLength="20"
+                    android:padding="16dp"
+                    android:drawablePadding="35dp"
+                    android:layout_marginRight="65dp"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_height="1dp"
+                    android:background="@color/signintext" />
+
+
+
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyEditText
+                    android:textSize="16dp"
+                    android:id="@+id/email"
+                    android:drawablePadding="33dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColorHint="@color/signintext"
+                    android:textColor="@color/signintext"
+                    android:layout_marginLeft="55dp"
+                    android:inputType="textEmailAddress"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:maxLength="20"
+
+                    android:drawableLeft="@drawable/mail"
+                    android:layout_marginRight="60dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_height="1dp"
+                    android:background="@color/signintext" />
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyEditText
+                    android:textSize="16dp"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColorHint="@color/signintext"
+                    android:textColor="@color/signintext"
+                    android:layout_marginLeft="60dp"
+                    android:inputType="textPassword"
+                    android:background="#0000"
+                    android:maxLength="20"
+                    android:padding="16dp"
+                    android:drawableLeft="@drawable/password"
+                    android:drawablePadding="36dp"
+                    android:layout_marginRight="65dp"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_height="1dp"
+                    android:background="@color/signintext" />
+
+                <id.ac.dharma_iswara.koperasimahasiswa.helper.MyEditText
+                    android:textSize="16dp"
+                    android:id="@+id/telepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telepon"
+                    android:textColorHint="@color/signintext"
+                    android:textColor="@color/signintext"
+                    android:layout_marginLeft="93dp"
+                    android:inputType="phone"
+                    android:background="#0000"
+                    android:maxLength="20"
+                    android:padding="16dp"
+                    android:drawablePadding="30dp"
+                    android:layout_marginRight="65dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_height="1dp"
+                    android:background="@color/signintext" />
+                <!-- -->
+
+                <!-- -->
+
+            </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="315dp"
+            android:background="@color/signintext"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="85dp"
+            android:layout_marginLeft="110dp"
+            />
+
+    </FrameLayout>
+
+    <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect"
+        android:text="Sign in"
+        android:textSize="20dp"
+        android:textColor="#9e3d41"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:padding="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

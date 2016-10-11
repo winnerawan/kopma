@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/reviewLayout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhitebackground"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Great Food"
+                android:textSize="18dp"
+                android:letterSpacing="0.05"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colortitletext"
+
+
+
+                />
+
+            <RatingBar
+                android:id="@+id/ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4"
+                style="?android:attr/ratingBarStyleSmall"
+                android:backgroundTint="@color/ratingbar"
+                android:secondaryProgressTint="@color/ratingbar"
+                android:progressTint="@color/ratingbar"
+                />
+        </LinearLayout>
+
+        <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+            android:id="@+id/review_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="awesome food it was great exprience good test greate service"
+            android:layout_margin="8dp"
+            android:textSize="14dp"
+            android:letterSpacing="0.04"
+            android:textColor="@color/colorheadtext"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorbackground"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

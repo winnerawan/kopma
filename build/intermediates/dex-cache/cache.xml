@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/winnerawan/AndroidStudioProjects/KoperasiMahasiswa/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f86aacb4ce46e6df18f8a8f66420569d5a8f0d89">
+        <dex dex="/Users/winnerawan/AndroidStudioProjects/KoperasiMahasiswa/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5652798cc64aceca4d1e9cf1565dd71885a2fad8/classes.dex" />
+    </item>
+
+</items>

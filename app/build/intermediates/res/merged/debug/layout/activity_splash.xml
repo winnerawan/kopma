@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity"
+    android:background="#fff">
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/welcomeclass"
+        >
+
+        <!--<customfonts.MyTextView-->
+        <!--android:id="@+id/head"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Welcome"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="34dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--/>-->
+
+
+
+
+
+
+    </FrameLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="60dp">
+
+
+        <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Koperasi Mahasiswa"
+            android:lines="1"
+            android:textSize="18sp"
+            android:textColor="#9d9ea0"
+            android:gravity="center"
+
+            />
+
+        <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" STT Dharma Iswara Madiun"
+            android:gravity="center"
+            android:lines="2"
+            android:textSize="18sp"
+            android:paddingBottom="21dp"
+            android:textColor="#9d9ea0"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            >
+
+
+            <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/exit"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#fff"
+                android:background="@drawable/rect"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+
+
+            <id.ac.dharma_iswara.koperasimahasiswa.helper.MyTextView
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:id="@+id/login"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="#fff"
+                android:background="@drawable/rect2"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
